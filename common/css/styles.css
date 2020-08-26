@@ -1,0 +1,181 @@
+
+      * { box-sizing: border-box; }
+      body {
+      font-family: 'Poppins', sans-serif !important;
+      
+      }
+      .wrapper1{
+            background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
+      }
+      a:link {
+            color: pink !important;
+      }
+      a:visited{
+            color: green !important;
+      }
+      a:hover{
+            color: red !important;
+      }
+      a:active {
+            color: blue !important;
+      }
+      li{
+            float: right;
+      }
+      .navbar_end{
+            justify-content: flex-end;
+      }
+      
+      .scene {
+      margin: 40px 0;
+      position: relative;
+      width: 210px;
+      height: 140px;
+      margin: 80px auto;
+      perspective: 1000px;
+      }
+      .carousel {
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      transform: translateZ(-288px);
+      transform-style: preserve-3d;
+      transition: transform 1s;
+      }
+      .carousel__cell {
+      position: absolute;
+      width: 200px;
+      height: 300px;
+      left: 10px;
+      top: 10px;
+      line-height: 116px;
+      font-size: 80px;
+      text-align: center;
+      transition: transform 1s, opacity 1s;
+      }
+      .carousel__cell:nth-child(9n+1) { background: hsla(  0, 100%, 50%, 0.8); }
+      .carousel__cell:nth-child(9n+2) { background: hsla( 40, 100%, 50%, 0.8); }
+      .carousel__cell:nth-child(9n+3) { background: hsla( 80, 100%, 50%, 0.8); }
+      .carousel__cell:nth-child(9n+4) { background: hsla(120, 100%, 50%, 0.8); }
+      .carousel__cell:nth-child(9n+5) { background: hsla(160, 100%, 50%, 0.8); }
+      .carousel__cell:nth-child(9n+6) { background: hsla(200, 100%, 50%, 0.8); }
+      .carousel__cell:nth-child(9n+7) { background: hsla(240, 100%, 50%, 0.8); }
+      .carousel__cell:nth-child(9n+8) { background: hsla(280, 100%, 50%, 0.8); }
+      .carousel__cell:nth-child(9n+0) { background: hsla(320, 100%, 50%, 0.8); }
+      .carousel__cell:nth-child(1) { transform: rotateY(  0deg) translateZ(288px); }
+      .carousel__cell:nth-child(2) { transform: rotateY( 40deg) translateZ(288px); }
+      .carousel__cell:nth-child(3) { transform: rotateY( 80deg) translateZ(288px); }
+      .carousel__cell:nth-child(4) { transform: rotateY(120deg) translateZ(288px); }
+      .carousel__cell:nth-child(5) { transform: rotateY(160deg) translateZ(288px); }
+      .carousel__cell:nth-child(6) { transform: rotateY(200deg) translateZ(288px); }
+      .carousel__cell:nth-child(7) { transform: rotateY(240deg) translateZ(288px); }
+      .carousel__cell:nth-child(8) { transform: rotateY(280deg) translateZ(288px); }
+      .carousel__cell:nth-child(9) { transform: rotateY(320deg) translateZ(288px); }
+      .carousel-options {
+      text-align: center;
+      position: relative;
+      z-index: 2;
+      background: hsla(0, 0%, 100%, 0.8);
+      top: 110px;
+      }
+      .img1{
+      background-image: url('../images/1.jpg') !important;
+      background-repeat: no-repeat !important;
+      background-size: 100% !important;
+      }
+      .img2{
+      background-image: url(../images/2.jpg) !important;
+      background-repeat: no-repeat !important;
+      background-size: 100% !important;
+      }
+      .img3{
+      background-image: url(../images/3.jpg) !important;
+      background-repeat: no-repeat !important;
+      background-size: 113% !important;
+      }
+      .img4{
+      background-image: url('../images/4.jpg') !important;
+      background-repeat: no-repeat !important;
+      background-size: 113% !important;
+      }
+      .img5{
+      background-image: url(../images/5.jpg) !important;
+      background-repeat: no-repeat !important;
+      background-size: 100% !important;
+      }
+      .img6{
+      background-image: url(../images/6.jpg) !important;
+      background-repeat: no-repeat !important;
+      background-size: 120% !important;
+      }
+      .img7{
+      background-image: url('../images/7.jpg') !important;
+      background-repeat: no-repeat !important;
+      background-size: 122% !important;
+      }
+      .img8{
+      background-image: url(../images/8.jpg) !important;
+      background-repeat: no-repeat !important;
+      background-size: 113% !important;
+      }
+      .img9{
+      background-image: url(../images/9.jpg) !important;
+      background-repeat: no-repeat !important;
+      background-size: 113% !important;
+      }
+      .img10{
+      background-image: url(../images/10.jpg) !important;
+      background-repeat: no-repeat !important;
+      background-size: 113% !important;
+      }
+      .img11{
+      background-image: url('../images/11.jpg') !important;
+      background-repeat: no-repeat !important;
+      background-size: 113% !important;
+      }
+      .img12{
+      background-image: url(../images/12.jpg) !important;
+      background-repeat: no-repeat !important;
+      background-size: 120% !important;
+      }
+      .img13{
+      background-image: url(../images/13.jpg) !important;
+      background-repeat: no-repeat !important;
+      background-size: 100% !important;
+      }
+      .img14{
+      background-image: url('../images/14.jpg') !important;
+      background-repeat: no-repeat !important;
+      background-size: 100% !important;
+      }
+      .img15{
+      background-image: url(../images/15.jpg) !important;
+      background-repeat: no-repeat !important;
+      background-size: 113% !important;
+      }
+      .img16{
+      background-image: url(../images/16.jpg) !important;
+      background-repeat: no-repeat !important;
+      background-size: 113% !important;
+      }
+      .img17{
+      background-image: url(../images/17.jpg) !important;
+      background-repeat: no-repeat !important;
+      background-size: 113% !important;
+      }
+      .img18{
+      background-image: url(../images/18.jpg) !important;
+      background-repeat: no-repeat !important;
+      background-size: 100% !important;
+      }
+      .img19{
+      background-image: url(../images/19.jpg) !important;
+      background-repeat: no-repeat !important;
+      background-size: 100% !important;
+      }
+      .img20{
+      background-image: url(../images/20.jpg) !important;
+      background-repeat: no-repeat !important;
+      background-size: 100% !important;
+      }
+      
